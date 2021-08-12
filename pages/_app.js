@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Component {...pageProps} />
-      <Script strategy="beforeInteractive" src="/script.js" />
+      <Script strategy="afterInteractive" src="/script.js" />
     </>
   );
 }
